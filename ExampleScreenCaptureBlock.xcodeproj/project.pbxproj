@@ -17,6 +17,7 @@
 		D2C0665729BEE2E100B6A69F /* ExampleScreenCaptureBlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0665629BEE2E100B6A69F /* ExampleScreenCaptureBlockTests.swift */; };
 		D2C0666129BEE2E100B6A69F /* ExampleScreenCaptureBlockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0666029BEE2E100B6A69F /* ExampleScreenCaptureBlockUITests.swift */; };
 		D2C0666329BEE2E100B6A69F /* ExampleScreenCaptureBlockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0666229BEE2E100B6A69F /* ExampleScreenCaptureBlockUITestsLaunchTests.swift */; };
+		D2C0667029BEF15400B6A69F /* Ext_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0666F29BEF15400B6A69F /* Ext_UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D2C0665C29BEE2E100B6A69F /* ExampleScreenCaptureBlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleScreenCaptureBlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C0666029BEE2E100B6A69F /* ExampleScreenCaptureBlockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleScreenCaptureBlockUITests.swift; sourceTree = "<group>"; };
 		D2C0666229BEE2E100B6A69F /* ExampleScreenCaptureBlockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleScreenCaptureBlockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2C0666F29BEF15400B6A69F /* Ext_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ext_UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				D2C0663C29BEE2DF00B6A69F /* AppDelegate.swift */,
 				D2C0663E29BEE2DF00B6A69F /* SceneDelegate.swift */,
 				D2C0664029BEE2DF00B6A69F /* ViewController.swift */,
+				D2C0666F29BEF15400B6A69F /* Ext_UIView.swift */,
 				D2C0664229BEE2DF00B6A69F /* Main.storyboard */,
 				D2C0664829BEE2E100B6A69F /* Assets.xcassets */,
 				D2C0664A29BEE2E100B6A69F /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C0667029BEF15400B6A69F /* Ext_UIView.swift in Sources */,
 				D2C0664129BEE2DF00B6A69F /* ViewController.swift in Sources */,
 				D2C0664729BEE2DF00B6A69F /* ExampleScreenCaptureBlock.xcdatamodeld in Sources */,
 				D2C0663D29BEE2DF00B6A69F /* AppDelegate.swift in Sources */,
